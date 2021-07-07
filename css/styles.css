@@ -1,0 +1,40 @@
+body{
+  background-color: #E8F6EF;
+}
+h1{
+  color: #66BFBF;
+}
+
+h3{
+  color: #66BFBF;
+}
+hr{
+  /* background-color: white; */
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 3%;
+  height: 0;
+  /* background-color: white; */
+}
+
+/* **********************tag_selector****************
+
+tag_selector(who){
+	 property(what) : value(how);
+}
+
+**********************class_selector****************
+
+.class_name{
+	property: value;
+}
+
+**********************id_selector****************
+
+#name_of_id{
+	property:value;
+}
+
+*/

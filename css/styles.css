@@ -1,5 +1,6 @@
 body{
   background-color: #E8F6EF;
+  padding-left: 20px;
 }
 h1{
   color: #66BFBF;
@@ -10,31 +11,36 @@ h3{
 }
 hr{
   /* background-color: white; */
-  border-style: none;
+  /* border-style: none;
   border-top-style: dotted;
   border-color: grey;
   border-width: 5px;
   width: 3%;
-  height: 0;
+  height: 0; */
   /* background-color: white; */
 }
-
-/* **********************tag_selector****************
-
-tag_selector(who){
-	 property(what) : value(how);
+.skill-para{
+  padding-left: 10px;
+}
+.bottom_container{
+  padding-left: 10px;
+  margin-bottom: 40px;
+}
+span{
+  /* border: 1px solid black; */
+  color: #916BBF;
+  margin-right: 10px;
+  text-decoration: underline;
 }
 
-**********************class_selector****************
-
-.class_name{
-	property: value;
+a{
+  text-decoration: none;
+  padding: 5px;
 }
 
-**********************id_selector****************
 
-#name_of_id{
-	property:value;
+@media screen and (max-width: 480px) {
+  /* h1{
+    font-size: 60px;
+  } */
 }
-
-*/

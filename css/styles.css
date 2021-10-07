@@ -1,6 +1,7 @@
 body{
   background-color: #E8F6EF;
   padding-left: 20px;
+  padding-top: 20px;
 }
 h1{
   color: #66BFBF;
@@ -39,8 +40,8 @@ a{
 }
 
 
-@media screen and (max-width: 480px) {
-  /* h1{
-    font-size: 60px;
-  } */
+@media screen and (max-width: 900px) {
+  a{
+    font-size: 16px;
+  }
 }
